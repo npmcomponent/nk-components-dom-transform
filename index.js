@@ -1,7 +1,7 @@
 'use strict';
 
-var trim = require('trim');
-var prefix = require('prefix');
+var trim = require('component-trim');
+var prefix = require('pgherveou-prefix');
 var prop = prefix('transform');
 var fns = require('./lib/properties');
 

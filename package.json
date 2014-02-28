@@ -1,11 +1,16 @@
 {
-  "name": "dom-transform",
+  "name": "nk-components-dom-transform",
+  "description": "Applies CSS transform properties on an element",
   "version": "0.0.2",
-  "scripts": {
-    "test": "make sauce"
+  "keywords": [
+    "css",
+    "transform",
+    "animation"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "pgherveou-prefix": "git://github.com/npmcomponent/pgherveou-prefix.git",
+    "component-trim": "git://github.com/npmcomponent/component-trim.git"
   },
-  "devDependencies": {
-    "component": "*",
-    "component-test": "*"
-  }
+  "license": "MIT"
 }
